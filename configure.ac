@@ -11,6 +11,8 @@ AC_PREREQ(2.61)
 AC_INIT(sqlite, 3.8.1, http://www.sqlite.org)
 AC_CONFIG_SRCDIR([sqlite3.c])
 
+AC_CONFIG_HEADERS([config.h])
+
 # Use automake.
 AM_INIT_AUTOMAKE([foreign])
 
